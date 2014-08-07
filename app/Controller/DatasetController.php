@@ -10,7 +10,7 @@ class DatasetController extends AppController {
 
 	public function newDataset() {
 		if ($this->request->is('post')) {
-			$ckan = new Ckan_client('1ed4a5db-c7d6-40a7-87ff-cce900384424');
+			$ckan = new Ckan_client('key CKAN');
 		try
 		{
 			$data = array(
